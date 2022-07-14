@@ -13,7 +13,7 @@ from aiogram.types import ParseMode
 import keyboard as kb
 
 db = Session()  # через сессию будем отправлять запросы к БД
-API_TOKEN = '5492274741:AAH9RNFo6WRnxxWuL0g4bcfiOzOo9O-_DF0'
+API_TOKEN = '' # add here your api token telegram bot
 bot = Bot(token=API_TOKEN)
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
